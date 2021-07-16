@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {useState} from 'react';
+import { Route , Link} from 'react-router-dom';
+import { render } from '@testing-library/react';
+import Lists from './lists';
+import creteList from './createList';
 
 function App() {
   const [list,setList] = useState([]);
@@ -22,6 +26,7 @@ function App() {
         </button>  
       </div>
       <div className = 'list'>
+        <Route path = "/" component={Lists}/>
         {list.map((item,index) => {
           return (
             <div>

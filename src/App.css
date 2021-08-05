@@ -7,6 +7,13 @@
   font-size: calc(10px + 2vmin);
 }
 
+.menu li{
+  text-align:center; /* Horizontally centers text within line-wrapped elements */
+  width: 95%;
+  font-size: medium;
+  list-style-type: none;
+}
+
 h1{
   font-style: italic;
   color: #61c2fba1;
@@ -17,13 +24,6 @@ h1{
   line-height: 40px;
   height: 40px;
   border-bottom: 1px solid #888;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {

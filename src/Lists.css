@@ -1,0 +1,27 @@
+/* .lists {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+
+} */
+
+.oneList{
+    display: inline-block;
+    position: relative;
+    width: 15%;
+    margin-right: 25px;
+    box-shadow: 0 0 0 3px #0a0a0a;
+}
+
+.title{
+    font-weight:bold;
+    color: rgb(79, 136, 221);
+}
+
+.items {
+    font-family:Arial,sans-serif;
+}
+
+.Link{
+    list-style-type: none;
+}
